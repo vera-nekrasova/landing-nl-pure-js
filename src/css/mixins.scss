@@ -4,17 +4,19 @@
 
 @mixin line-h2() {
 	height: 1px;
-	width: 60px;
+    max-width: 60px;
+	min-width: 25px;
 	background-color: #535b64;
 	content: '';
 	display: inline-block;
 	margin-bottom: 10px;
 
-	@include xs-block {
-		width: 35px;
+	@include mobileLg-block {
+		margin-bottom: 6px;
 	}
-	@include xxs-block {
-		width: 25px;
+
+	@include mobileMd-block {
+		display: none;
 	}
 }
 
