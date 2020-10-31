@@ -1,7 +1,0 @@
-[1030/155209.477:ERROR:directory_reader_win.cc(43)] FindFirstFile: Системе не удается найти указанный путь. (0x3)
-[1030/171346.901:ERROR:file_io_win.cc(171)] CreateFile C:\Users\lyfri\AppData\Local\Google\Chrome\User Data\Crashpad\reports\2dec2843-bac5-4a26-8ab0-54d8f2bc1024.dmp: Недостаточно места на диске. (0x70)
-[1030/171346.906:ERROR:crash_report_exception_handler.cc(99)] PrepareNewCrashReport failed
-[1030/171346.921:ERROR:process_info.cc(359)] UncheckedAllocate
-[1030/171346.937:ERROR:file_io.cc(135)] WriteFile: Недостаточно места на диске. (0x70)
-[1030/171346.937:ERROR:crash_report_exception_handler.cc(113)] WriteEverything failed
-[1030/171421.127:ERROR:process_info.cc(359)] UncheckedAllocate
