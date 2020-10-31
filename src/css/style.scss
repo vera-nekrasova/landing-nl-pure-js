@@ -403,8 +403,8 @@ body a {
 			margin-bottom: 30px;
 		}
 
-		@include smMin-block {
-			font-size: 20px;
+		@include xs-block {
+			font-size: 21px;
 		}
 	}
 
@@ -464,7 +464,7 @@ body a {
 		cursor: pointer;
 		bottom: 40px;
 		left: 50%;
-		background: url(../img/chevron-down-solid.svg) no-repeat center;
+		background: url(../img/chevron-down-solid.svg) no-repeat center/70%;
 
 		@include sm-block {
 			bottom: 20px;
