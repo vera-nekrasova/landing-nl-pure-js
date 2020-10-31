@@ -983,12 +983,12 @@ body a {
 			top:0;
 			border: none;
 
-			@include lgMin-block {
+			@media screen and (min-width: 1024px) {
 				position: unset;
 			}
 		}
 
-		@include lgMin-block {
+		@media screen and (min-width: 1024px) {
 			height: 800px;
 			padding-bottom: 0;
 		}
