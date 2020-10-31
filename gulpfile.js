@@ -100,8 +100,14 @@ function smartgrid(done) {
 			fields: '30px'
 		},
 		breakPoints: {
+			lgMax: {
+				width: '1340px',
+			},
 			lg: {
 				width: '1080px',
+			},
+			lgMin: {
+				width: '1024px',
 			},
 			md: {
 				width: '980px'
@@ -110,10 +116,10 @@ function smartgrid(done) {
 				width: '860px',
 			},
 			smMin: {
-				width: '760px'
+				width: '790px'
 			},
 			xs: {
-				width: '590px'
+				width: '660px'
 			},
 			mobileLg: {
 				width: '480px',
@@ -124,7 +130,7 @@ function smartgrid(done) {
 				fields: '15px'
 			},
 			mobileMdMin: {
-				width: '380px',
+				width: '400px',
 				fields: '15px'
 			},
 			mobileS: {
